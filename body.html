@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undangan Pernikahan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #fff, #f1f1f1);
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #222;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #777;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .info {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .map, .gallery {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+    }
+
+    .rsvp {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .rsvp a {
+      padding: 0.75rem 1.5rem;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .section-title {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Undangan Pernikahan</h1>
+    <p>Nama Pria & Nama Wanita</p>
+  </header>
+
+  <section>
+    <div class="info">
+      <p>Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami.</p>
+    </div>
+
+    <div class="info">
+      <h2 class="section-title">Akad Nikah</h2>
+      <p>Hari, Tanggal: Sabtu, 20 Juli 2025<br>Waktu: 08.00 WIB<br>Tempat: Gedung Serbaguna Harmoni, Jakarta</p>
+    </div>
+
+    <div class="info">
+      <h2 class="section-title">Resepsi</h2>
+      <p>Hari, Tanggal: Sabtu, 20 Juli 2025<br>Waktu: 11.00 - 14.00 WIB<br>Tempat: Gedung Serbaguna Harmoni, Jakarta</p>
+    </div>
+
+    <div class="map">
+      <h2 class="section-title">Lokasi</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18..." allowfullscreen=""></iframe>
+    </div>
+
+    <div class="gallery">
+      <h2 class="section-title">Galeri Foto</h2>
+      <img src="https://via.placeholder.com/300x200" alt="Foto 1" style="margin:10px; border-radius:12px;">
+      <img src="https://via.placeholder.com/300x200" alt="Foto 2" style="margin:10px; border-radius:12px;">
+    </div>
+
+    <div class="rsvp">
+      <h2 class="section-title">Konfirmasi Kehadiran</h2>
+      <a href="#">Isi Form RSVP</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Terima kasih atas doa dan restu Anda.</p>
+  </footer>
+</body>
+</html>
