@@ -4,94 +4,74 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Undangan Pernikahan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet" />
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       font-family: 'Open Sans', sans-serif;
-      background-color: #f9f9f9;
+      background: #f8f8f8;
       color: #333;
       line-height: 1.6;
     }
-
     header {
-      background: linear-gradient(to right, #fff, #f1f1f1);
-      padding: 3rem 1rem;
       text-align: center;
+      padding: 3rem 1rem;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     }
-
     header h1 {
       font-family: 'Playfair Display', serif;
       font-size: 2.5rem;
-      color: #222;
+      color: #444;
     }
-
     header p {
-      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
       color: #777;
     }
-
     section {
-      max-width: 800px;
+      max-width: 600px;
       margin: 2rem auto;
-      padding: 0 1rem;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
-
-    .section-title {
-      font-size: 1.5rem;
+    section h2 {
+      font-size: 1.6rem;
       margin-bottom: 1rem;
+      color: #555;
+    }
+    .couple {
       text-align: center;
+      font-size: 1.2rem;
+    }
+    .date {
+      text-align: center;
+      margin: 2rem 0;
       font-weight: bold;
+      font-size: 1.1rem;
     }
-
-    .info {
+    .location {
       text-align: center;
-      margin-bottom: 2rem;
+      color: #555;
     }
-
-    .map, .gallery {
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    iframe {
-      width: 100%;
-      height: 300px;
-      border: none;
-    }
-
-    .rsvp {
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    .rsvp a {
-      padding: 0.75rem 1.5rem;
-      background-color: #333;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
-    }
-
     footer {
       text-align: center;
       padding: 2rem 1rem;
       font-size: 0.9rem;
       color: #999;
     }
-
     @media (max-width: 600px) {
       header h1 {
         font-size: 2rem;
       }
-
-      .section-title {
-        font-size: 1.3rem;
+      section {
+        margin: 1rem;
       }
     }
   </style>
@@ -99,43 +79,34 @@
 <body>
   <header>
     <h1>Undangan Pernikahan</h1>
-    <p>Nama Pria & Nama Wanita</p>
+    <p>Kami mengundang Anda untuk merayakan hari bahagia kami</p>
   </header>
 
   <section>
-    <div class="info">
-      <p>Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami.</p>
+    <h2>Pasangan Mempelai</h2>
+    <div class="couple">
+      <p><strong>Ana Putri</strong> & <strong>Budi Pratama</strong></p>
     </div>
+  </section>
 
-    <div class="info">
-      <h2 class="section-title">Akad Nikah</h2>
-      <p>Hari, Tanggal: Sabtu, 20 Juli 2025<br>Waktu: 08.00 WIB<br>Tempat: Gedung Serbaguna Harmoni, Jakarta</p>
+  <section>
+    <h2>Tanggal & Waktu</h2>
+    <div class="date">
+      Sabtu, 20 Juli 2025 <br />
+      Pukul 10.00 WIB - selesai
     </div>
+  </section>
 
-    <div class="info">
-      <h2 class="section-title">Resepsi</h2>
-      <p>Hari, Tanggal: Sabtu, 20 Juli 2025<br>Waktu: 11.00 - 14.00 WIB<br>Tempat: Gedung Serbaguna Harmoni, Jakarta</p>
-    </div>
-
-    <div class="map">
-      <h2 class="section-title">Lokasi</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18..." allowfullscreen=""></iframe>
-    </div>
-
-    <div class="gallery">
-      <h2 class="section-title">Galeri Foto</h2>
-      <img src="https://via.placeholder.com/300x200" alt="Foto 1" style="margin:10px; border-radius:12px;">
-      <img src="https://via.placeholder.com/300x200" alt="Foto 2" style="margin:10px; border-radius:12px;">
-    </div>
-
-    <div class="rsvp">
-      <h2 class="section-title">Konfirmasi Kehadiran</h2>
-      <a href="#">Isi Form RSVP</a>
+  <section>
+    <h2>Tempat Acara</h2>
+    <div class="location">
+      Gedung Serbaguna Melati<br />
+      Jl. Cinta Kasih No. 88, Jakarta
     </div>
   </section>
 
   <footer>
-    <p>Terima kasih atas doa dan restu Anda.</p>
+    © 2025 Ana & Budi. Terima kasih atas doa dan restunya.
   </footer>
 </body>
 </html>
